@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container"> <!--for weather box-->
+        <div class="header"> <!--for search-->
+
+            <div class="search-box">
+                <input type="text" placeholder="Enter Your Location" class="input-box">
+                <button class="fa-solid fa-magnifying-glass" id="searchbtn"></button>
+            </div>
+
+            <div class="location-not-found">
+                <h1>Sorry,Location not found!!!</h1>
+                <img src="asset/404.png" alt="404 Error">
+            </div>
+
+        </div>
+        <div class="weather-body"> <!--Weather Information-->
+            <img src="C:\Users\Honey B Tandel\Downloads\cloud.png" alt=weather image class="weather-img">
+            <div class="weather-box"> <!--Tempreture and disctiption-->
+                <p class="temp">0<sup>°C</sup></p>
+                <p class="des"></p>
+            </div>
+            <div class="weather-details"> <!--humidity and wind speed-->
+                <div class="humidity">
+                    <i class="fa-duotone fa-solid fa-droplet"></i>
+                    <div class="text"> <!--Humidity value-->
+                        <span id="humidity"></span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text"> <!--wind speed-->
+                        <span id="wind-speed"></span>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://kit.fontawesome.com/98b86bdce1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

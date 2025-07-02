@@ -13,10 +13,21 @@ A simple and responsive weather web application built using HTML, CSS, and JavaS
 - CSS3  
 - JavaScript (Vanilla)
 
+  How to use:
+1. Clone the Repository
+   git clone https://github.com/your-username/weather-web-app.git
+
+2. Open the app
+-Simply double-click index.html, or
+-Open it in a browser manually, or
+-Use a live server extension if you're using VS Code.
+
 📦 Future Improvements
 -Integrate real-time weather data using OpenWeatherMap API
 -Add error handling for invalid inputs
 -Improve mobile responsiveness
 -Add animated icons or effects based on weather condition
+
+
 
 
